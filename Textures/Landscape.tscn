@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Textures/Landscape.tres" type="TileSet" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 8, 8 )
+
+[node name="Landscape" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+format = 1
+tile_data = PoolIntArray( 65541, 3, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap"]
+position = Vector2( 88, 24 )
+shape = SubResource( 1 )
+
+[node name="TileMap2" type="TileMap" parent="."]
+position = Vector2( 90, 20 )
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+format = 1
+__meta__ = {
+"_editor_description_": ""
+}

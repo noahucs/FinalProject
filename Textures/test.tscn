@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Textures/PlayerModel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Textures/Landscape.tres" type="TileSet" id=2]
+
+[node name="test2" type="Node2D"]
+scale = Vector2( 1, 0.89031 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 16, 16 )
+format = 1
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="KinematicBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 120, 152.756 )
+
+[node name="Camera2D" type="Camera2D" parent="KinematicBody2D"]
+current = true
+zoom = Vector2( 0.5, 0.5 )
+offset_h = -0.01
