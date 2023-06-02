@@ -3,8 +3,8 @@
 [ext_resource path="res://Magical Free Asset Pack/grandmaster warlock/GrandmasterWarlockIdle.png" type="Texture" id=1]
 [ext_resource path="res://Textures/PlayerModel.gd" type="Script" id=2]
 
-[sub_resource type="CapsuleShape2D" id=1]
-height = 14.0
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 13.9999, 7.49991 )
 
 [sub_resource type="Animation" id=2]
 resource_name = "Player"
@@ -70,9 +70,14 @@ texture = ExtResource( 1 )
 hframes = 9
 frame = 1
 
+[node name="Camera2D" type="Camera2D" parent="Sprite"]
+current = true
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -1, 1 )
-shape = SubResource( 1 )
+position = Vector2( -2, -2.77754e-05 )
+rotation = -1.56594
+scale = Vector2( 1, 1 )
+shape = SubResource( 4 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/Player = SubResource( 2 )
