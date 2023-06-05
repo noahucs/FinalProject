@@ -10,7 +10,7 @@ onready var sprite := $Sprite
 export var movement_speed := 150.0
 var velocity := Vector2.ZERO
 
-export var jump_height : float = 45.0
+export var jump_height : float = 50.0
 export var jump_max_height : float = 0.5
 export var jump_min_height : float = 0.4
 
@@ -37,22 +37,12 @@ func get_input_velocity() -> float:
 	var horizontal := 0.0
 	
 	if Input.is_action_pressed("move_left"):
-
+		sprite.frame = DIRECTION_TO_FRAME[Vector2.RIGHT]
+		sprite.flip_h = sign(horizontal) == -1
 		horizontal -= 1.0
 	if Input.is_action_pressed("move_right"):
 		horizontal += 1.0
 	
 	return horizontal
 	
-func _input(event):
-   # Mouse in viewport coordinates.
-   if event is InputEventMouseButton:
-	   print("Mouse Click/Unclick at: ", event.position)
-   elif event is InputEventMouseMotion:
-	   pass
-
-   # Print the size of the viewport.
-   print("Viewport Resolution is: ", get_viewport_rect().size)
-
-func proj() -> void:
-	pass
+	

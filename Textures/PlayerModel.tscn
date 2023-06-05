@@ -76,9 +76,8 @@ current = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( -2, -2.77754e-05 )
 rotation = -1.56594
-scale = Vector2( 1, 1 )
 shape = SubResource( 4 )
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+[node name="Player" type="AnimationPlayer" parent="."]
 anims/Player = SubResource( 2 )
 anims/RESET = SubResource( 3 )
