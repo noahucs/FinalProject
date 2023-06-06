@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Textures/Landscape.tres" type="TileSet" id=2]
+
+[node name="Navigation" type="Node2D"]
+
+[node name="Navigation2D" type="Navigation2D" parent="." groups=["levelNavigation"]]
+
+[node name="TileMap" type="TileMap" parent="Navigation2D"]
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 16, 16 )
+bake_navigation = true
+format = 1
+__meta__ = {
+"_editor_description_": ""
+}

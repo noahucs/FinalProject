@@ -15,7 +15,6 @@ format = 1
 tile_data = PoolIntArray( 196625, 74, 0, 327700, 74, 0, 458774, 74, 0, 458775, 74, 0, 458776, 74, 0, 524312, 74, 0, 589848, 74, 0, 655373, 74, 0, 655383, 74, 0, 655384, 74, 0, 655385, 74, 0, 720909, 74, 0, 720920, 74, 0, 786454, 74, 0, 786455, 74, 0, 851990, 74, 0, 851991, 74, 0, 917525, 74, 0, 917526, 74, 0 )
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="TileMap"]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/KinematicBody2D"]
 position = Vector2( 88, 24 )

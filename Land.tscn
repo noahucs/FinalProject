@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Textures/Landscape.tres" type="TileSet" id=1]
+
+[node name="Land" type="TileMap"]
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 16, 16 )
+show_collision = true
+format = 1
+__meta__ = {
+"_editor_description_": ""
+}
