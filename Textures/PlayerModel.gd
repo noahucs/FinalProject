@@ -1,14 +1,10 @@
 extends KinematicBody2D
 
-const DIRECTION_TO_FRAME := {
-	Vector2.DOWN: 0,
-	Vector2.RIGHT: 2,
-	Vector2.UP: 4,
-}
 
 onready var sprite := $Sprite
 export var movement_speed := 150.0
 var velocity := Vector2.ZERO
+onready var Player := $Player
 
 export var jump_height : float = 45.0
 export var jump_max_height : float = 0.5
@@ -27,6 +23,7 @@ func _physics_process(delta: float) -> void:
 		jump()
 	if Input.is_action_just_pressed("Shoot"):
 		proj()
+		
 
 	velocity + move_and_slide(velocity, Vector2.UP) 
 	
@@ -48,9 +45,17 @@ func get_input_velocity() -> float:
 	if Input.is_action_pressed("move_left"):
 		horizontal -= 1.0
 		sprite.flip_h = true
+		if is_on_floor():
+			Player.play("Player")
+		else:
+			pass
 	if Input.is_action_pressed("move_right"):
 		horizontal += 1.0
 		sprite.flip_h = false
+		if is_on_floor():
+			Player.play("Player")
+		else:
+			pass
 	return horizontal
 	
 func proj():
