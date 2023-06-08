@@ -21,7 +21,6 @@ flip_v = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite/KinematicBody2D"]
 position = Vector2( 8.96758, 0 )
-scale = Vector2( 1, 1 )
 shape = SubResource( 5 )
 
 [node name="Area2D" type="Area2D" parent="."]

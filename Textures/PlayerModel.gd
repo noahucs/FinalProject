@@ -7,8 +7,8 @@ var velocity := Vector2.ZERO
 onready var Player := $Player
 
 export var jump_height : float = 45.0
-export var jump_max_height : float = 0.5
-export var jump_min_height : float = 0.4
+export var jump_max_height : float = 0.4
+export var jump_min_height : float = 0.3
 
 onready var jump_speed : float = (2.0 * jump_height) / jump_max_height * -1.0
 onready var jump_gravity : float = (-2.0 * jump_height) / (jump_max_height * jump_max_height) * -1.0
@@ -65,4 +65,6 @@ func proj():
 	projectile.position = $Sprite/Node2D/Position2D.global_position 
 	
 	projectile.velocity = get_global_mouse_position() - projectile.position
+	
+
 

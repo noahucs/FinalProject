@@ -10,11 +10,10 @@ var path: Array = []
 var levelNavigation: Navigation2D = null
 var player = null
 onready var Animation := $AnimationPlayer
+onready var sprite := $Sprite
 
 func _ready() -> void:
 	area.connect("body_entered", self, "_on_Area2D_body_entered")
-
-func _on_Area2D_body_entered():
 	yield(get_tree(), "idle_frame")
 	var tree = get_tree()
 	if tree.has_group("LevelNavigation"):
@@ -22,6 +21,16 @@ func _on_Area2D_body_entered():
 		
 	if tree.has_group("Player"):
 		player = tree.get_nodes_in_group("Player")[0]
+
+
+
+
+func _on_Area2D_body_entered():
+	line2d.global_position = Vector2.ZERO
+	if player and levelNavigation:
+		generate_path()
+		navigate() 
+	move()
 
 func _physics_process(delta):
 	line2d.global_position = Vector2.ZERO
@@ -38,6 +47,7 @@ func move():
 func navigate():
 	if path.size() > 0:
 		velocity = global_position.direction_to(path[1]) * speed
+
 		
 	if global_position == path[0]:
 		path.pop_front()
@@ -46,3 +56,5 @@ func generate_path():
 	if levelNavigation != null and player != null:
 		path = levelNavigation.get_simple_path(global_position, player.global_position, false)
 		line2d.points = path
+		
+		

@@ -1,16 +1,18 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Textures/PlayerModel.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Textures/Landscape.tres" type="TileSet" id=2]
 [ext_resource path="res://Textures/Enemy_ground.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Land.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Textures/Enemy_Flying.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Textures/test.gd" type="Script" id=6]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 40, 16.232 )
 
-[node name="test2" type="Node2D"]
+[node name="Test" type="Node2D"]
 scale = Vector2( 1, 0.89031 )
+script = ExtResource( 6 )
 __meta__ = {
 "_edit_vertical_guides_": [ -8.0 ]
 }
@@ -32,7 +34,6 @@ __meta__ = {
 
 [node name="KinematicBody2D2" parent="." instance=ExtResource( 5 )]
 position = Vector2( 656, -132.538 )
-scale = Vector2( 1, 1 )
 
 [node name="main objects" type="TileMap" parent="."]
 tile_set = ExtResource( 2 )
@@ -103,7 +104,7 @@ polygon = PoolVector2Array( 257, 17.9713, 432, 17.9713, 432, -31.4497, 544, -31.
 polygon = PoolVector2Array( 544, -157.249, 544, -44.9282, 576, -44.9282, 576, -62.8994, 560, -62.8994, 560, -143.77, 640, -143.77, 640, -157.249 )
 
 [node name="Ground7" type="CollisionPolygon2D" parent="main objects/Inside_map"]
-polygon = PoolVector2Array( 576, -62.8994, 655, -61.7762, 735, -62.8994, 735, -14.6017, 768, -14.6017, 768, 0, 720, 0, 720, -49.421, 576, -49.421 )
+polygon = PoolVector2Array( 576, -61.7762, 655, -61.7762, 735, -62.8994, 735, -14.6017, 768, -14.6017, 768, 0, 720, 0, 720, -49.421, 576, -49.421 )
 
 [node name="Ground8" type="CollisionPolygon2D" parent="main objects/Inside_map"]
 polygon = PoolVector2Array( 784, -64.0227, 784, -47.1746, 832, -47.1746, 832, -64.0227, 880, -62.8994, 880, -79.7475, 816, -79.7475, 816, -64.0227, 785, -64.0227 )
@@ -220,17 +221,10 @@ polygon = PoolVector2Array( -128, 432.434, -112, 432.434, -112, 448.158, -128, 4
 position = Vector2( 96, -400.984 )
 polygon = PoolVector2Array( -128, 432.434, -48, 432.434, -48, 468.376, -128, 468.376 )
 
-[node name="Death" type="KinematicBody2D" parent="."]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Death"]
-position = Vector2( 88, 47.7906 )
-shape = SubResource( 1 )
-
-[node name="KinematicBody2D" parent="." instance=ExtResource( 1 )]
+[node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 7.62939e-06, 0 )
 
-[node name="Camera2D" type="Camera2D" parent="KinematicBody2D"]
-visible = false
+[node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2( 7.62939e-06, -4.57764e-05 )
 current = true
 zoom = Vector2( 0.5, 0.5 )
@@ -238,3 +232,19 @@ offset_h = -0.01
 
 [node name="Enemy_ground" parent="." instance=ExtResource( 3 )]
 position = Vector2( 289, 121.306 )
+
+[node name="End" type="CanvasLayer" parent="."]
+
+[node name="Endgame" type="Label" parent="End"]
+margin_right = 40.0
+margin_bottom = 14.0
+text = "Gameover."
+align = 1
+valign = 1
+
+[node name="Gameover" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Gameover"]
+position = Vector2( 88, 47.7906 )
+scale = Vector2( 1, 1 )
+shape = SubResource( 1 )

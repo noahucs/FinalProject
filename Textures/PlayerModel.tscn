@@ -4,7 +4,7 @@
 [ext_resource path="res://Textures/PlayerModel.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=4]
-extents = Vector2( 9.48775, 4.24874 )
+extents = Vector2( 5.5, 9.5 )
 
 [sub_resource type="Animation" id=2]
 resource_name = "Player"
@@ -79,8 +79,7 @@ position = Vector2( 12, -1 )
 current = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -2.24641, -1.48906 )
-rotation = -1.56594
+position = Vector2( -1.5, 3.5 )
 shape = SubResource( 4 )
 
 [node name="Player" type="AnimationPlayer" parent="."]
