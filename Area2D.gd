@@ -1,4 +1,4 @@
-extends KinematicBody2D
+extends Area2D
 #animation frames for enemy, 28,29, 31,32,33. optional hit frames, 40-41
 
 onready var line2d = $Line2D

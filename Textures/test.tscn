@@ -33,7 +33,7 @@ __meta__ = {
 }
 
 [node name="KinematicBody2D2" parent="." instance=ExtResource( 5 )]
-position = Vector2( 656, -132.538 )
+position = Vector2( 162, -59.5298 )
 
 [node name="main objects" type="TileMap" parent="."]
 tile_set = ExtResource( 2 )
@@ -104,7 +104,7 @@ polygon = PoolVector2Array( 257, 17.9713, 432, 17.9713, 432, -31.4497, 544, -31.
 polygon = PoolVector2Array( 544, -157.249, 544, -44.9282, 576, -44.9282, 576, -62.8994, 560, -62.8994, 560, -143.77, 640, -143.77, 640, -157.249 )
 
 [node name="Ground7" type="CollisionPolygon2D" parent="main objects/Inside_map"]
-polygon = PoolVector2Array( 576, -61.7762, 655, -61.7762, 735, -62.8994, 735, -14.6017, 768, -14.6017, 768, 0, 720, 0, 720, -49.421, 576, -49.421 )
+polygon = PoolVector2Array( 576, -62.8994, 655, -61.7762, 735, -62.8994, 735, -14.6017, 768, -14.6017, 768, 0, 720, 0, 720, -49.421, 576, -49.421 )
 
 [node name="Ground8" type="CollisionPolygon2D" parent="main objects/Inside_map"]
 polygon = PoolVector2Array( 784, -64.0227, 784, -47.1746, 832, -47.1746, 832, -64.0227, 880, -62.8994, 880, -79.7475, 816, -79.7475, 816, -64.0227, 785, -64.0227 )
@@ -236,15 +236,17 @@ position = Vector2( 289, 121.306 )
 [node name="End" type="CanvasLayer" parent="."]
 
 [node name="Endgame" type="Label" parent="End"]
-margin_right = 40.0
-margin_bottom = 14.0
+margin_left = -256.0
+margin_top = -150.0
+margin_right = 255.0
+margin_bottom = 150.0
 text = "Gameover."
 align = 1
 valign = 1
+uppercase = true
 
 [node name="Gameover" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Gameover"]
 position = Vector2( 88, 47.7906 )
-scale = Vector2( 1, 1 )
 shape = SubResource( 1 )
