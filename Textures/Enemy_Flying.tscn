@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Add-on characters/Retro-Lines-16x16/Expanded-Retro-Lines-Enemies-transparent.png" type="Texture" id=1]
 [ext_resource path="res://Textures/Enemy_Flying.gd" type="Script" id=2]
@@ -6,8 +6,8 @@
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 7, 7 )
 
-[sub_resource type="CircleShape2D" id=2]
-radius = 114.0
+[sub_resource type="CircleShape2D" id=5]
+radius = 66.0076
 
 [sub_resource type="Animation" id=3]
 resource_name = "Flying"
@@ -41,10 +41,8 @@ tracks/0/keys = {
 "values": [ 59 ]
 }
 
-[sub_resource type="CircleShape2D" id=5]
-radius = 7.0
-
 [node name="Flying" type="KinematicBody2D"]
+position = Vector2( 53, 43 )
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
@@ -53,29 +51,18 @@ hframes = 14
 vframes = 19
 frame = 59
 
-[node name="Node2D" type="Node2D" parent="Sprite"]
-
-[node name="Position2D" type="Position2D" parent="Sprite/Node2D"]
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )
 
-[node name="Line2D" type="Line2D" parent="."]
+[node name="Danger" type="Area2D" parent="."]
 
-[node name="Area2D" type="Area2D" parent="."]
-collision_layer = 2
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-shape = SubResource( 2 )
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Danger"]
+shape = SubResource( 5 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/Flying = SubResource( 3 )
 anims/RESET = SubResource( 4 )
 
-[node name="Danger" type="Area2D" parent="."]
-
-[node name="Zone" type="CollisionShape2D" parent="Danger"]
-shape = SubResource( 5 )
-
 [node name="Timer" type="Timer" parent="."]
+wait_time = 0.001
 autostart = true

@@ -51,9 +51,7 @@ hframes = 14
 vframes = 19
 frame = 28
 
-[node name="KinematicBody2D" type="KinematicBody2D" parent="Ground"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground/KinematicBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground"]
 position = Vector2( 0, 1 )
 shape = SubResource( 4 )
 

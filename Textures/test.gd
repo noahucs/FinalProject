@@ -14,4 +14,3 @@ func finish_game():
 func _Finished_game(body: Node):
 	finish_game()
 	
-		

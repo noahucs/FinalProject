@@ -11,11 +11,11 @@ export var jump_height : float = 45.0
 export var jump_max_height : float = 0.4
 export var jump_min_height : float = 0.3
 
-onready var jump_speed : float = (2.0 * jump_height) / jump_max_height * -1.0
-onready var jump_gravity : float = (-2.0 * jump_height) / (jump_max_height * jump_max_height) * -1.0
-onready var jump_fall_gravity : float = (-2.0 * jump_height) / (jump_min_height * jump_min_height) * -1.0
+onready var jump_speed : float = ((2.0 * jump_height) / jump_max_height) * -1.0
+onready var jump_gravity : float = ((-2.0 * jump_height) / (jump_max_height * jump_max_height)) * -1.0
+onready var jump_fall_gravity : float = ((-2.0 * jump_height) / (jump_min_height * jump_min_height)) * -1.0
 
-const fireball = preload('res://Enemy_projectile.tscn')
+const fireball = preload('res://Textures/Projectile.tscn')
 
 func _physics_process(delta: float) -> void:
 	velocity.y += get_gravity() * delta
@@ -26,7 +26,7 @@ func _physics_process(delta: float) -> void:
 		proj()
 		
 
-	velocity + move_and_slide(velocity, Vector2.UP) 
+	velocity = move_and_slide(velocity, Vector2.UP) 
 	
 	$Sprite/Node2D.look_at(get_global_mouse_position())
 	
@@ -64,5 +64,3 @@ func proj():
 	
 	projectile.velocity = get_global_mouse_position() - projectile.position
 	
-
-
