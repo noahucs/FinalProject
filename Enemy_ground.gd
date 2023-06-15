@@ -3,19 +3,15 @@ extends KinematicBody2D
 
 
 const speed := 100.0
-onready var velocity := Vector2.ZERO
-onready var sprite := $Ground
-onready var Animation := $AnimationPlayer
+#onready
+var velocity := Vector2.ZERO
+var sprite := $Ground
+var Animation := $AnimationPlayer
 
 func _physics_process(delta: float) -> void:
-	var direction := Vector2(2,0)
-	if is_on_floor():
-		direction.x = 1.0
-		move_and_slide(direction)
-		sprite.flip_h = true
-		Animation.play("Enemy_ani")
-	else:
-		direction.x = -1.0
-		move_and_slide(direction)
-		sprite.flip_h = false
-		Animation.play("Enemy_ani")
+	Animation.play("Enemy_ani")
+	var direction := Vector2.ZERO
+	direction.x = speed if direction.x == 0 else -direction.x
+	direction = move_and_slide(direction, Vector2.UP)
+	if not is_on_floor():
+		direction.x *= -1
