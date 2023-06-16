@@ -1,0 +1,203 @@
+2a60927148abd1d33b818b535e306557
+::res://::1686890551
+Area2D.gd::GDScript::-1::1686773944::0::1::::<>Area2D<>::
+default_env.tres::Environment::-1::1686773944::0::1::::<><>::
+Enemy_flying(area2D).tscn::PackedScene::-1::1686773944::0::1::::<><>::res://Add-on characters/Retro-Lines-16x16/Expanded-Retro-Lines-Enemies-transparent.png<>res://Area2D.gd
+Enemy_ground.gd::GDScript::-1::1686776454::0::1::::<>KinematicBody2D<>::
+Enemy_projectile.tscn::PackedScene::-1::1686773944::0::1::::<><>::res://Add-on characters/Sprites - Lasers Bullets #1 [66]v2.5/Laser Sprites/33.png
+icon.png::CompressedTexture2D::1069229053913949742::1686773944::1686774597::1::::<><>::
+Land.tscn::PackedScene::-1::1686773944::0::1::::<><>::res://Textures/Landscape.tres
+Navigation.tscn::PackedScene::-1::1686773944::0::1::::<><>::res://Textures/Landscape.tres
+PlayerModel2.gd::GDScript::-1::1686773944::0::1::::<>KinematicBody2D<>::
+Projectile.gd::GDScript::-1::1686773944::0::1::::<>KinematicBody2D<>::
+RandomTest.tscn::PackedScene::-1::1686773944::0::1::::<><>::res://Textures/Landscape.tres<>res://Textures/PlayerModel.tscn<>res://Textures/Enemy_ground.tscn
+::res://Add-on characters/::1686773944
+::res://Add-on characters/dungeonSprites_ v1.5/::1686774598
+demonHand_.png::CompressedTexture2D::1001851539670715206::1686773944::1686774598::1::::<><>::
+demon_.png::CompressedTexture2D::2759578925528188613::1686773944::1686774598::1::::<><>::
+devilHand_.png::CompressedTexture2D::1999410793152945818::1686773944::1686774598::1::::<><>::
+devil_.png::CompressedTexture2D::8237642310666251095::1686773944::1686774598::1::::<><>::
+dragonHand_.png::CompressedTexture2D::8859081477820640340::1686773944::1686774598::1::::<><>::
+dragon_.png::CompressedTexture2D::7755376799694542240::1686773944::1686774598::1::::<><>::
+fHeroHand_.png::CompressedTexture2D::8627605398343358229::1686773944::1686774598::1::::<><>::
+fHero_.png::CompressedTexture2D::8533805316660145455::1686773944::1686774598::1::::<><>::
+ghostHand_.png::CompressedTexture2D::1820103377868078005::1686773944::1686774598::1::::<><>::
+ghost_.png::CompressedTexture2D::2785880462408789865::1686773944::1686774598::1::::<><>::
+goblinHand_.png::CompressedTexture2D::7911906781124420369::1686773944::1686774598::1::::<><>::
+goblinKingHand_.png::CompressedTexture2D::7578663680641007651::1686773944::1686774598::1::::<><>::
+goblinKing_.png::CompressedTexture2D::3706410054432177877::1686773944::1686774598::1::::<><>::
+goblin_.png::CompressedTexture2D::7138493818927217799::1686773944::1686774598::1::::<><>::
+hobgoblinHand_.png::CompressedTexture2D::4094264261611223846::1686773944::1686774598::1::::<><>::
+hobgoblin_.png::CompressedTexture2D::6611206162139057345::1686773944::1686774598::1::::<><>::
+knightHand_.png::CompressedTexture2D::166156513375348585::1686773944::1686774598::1::::<><>::
+knight_.png::CompressedTexture2D::6559120581883633336::1686773944::1686774598::1::::<><>::
+mHeroHand_.png::CompressedTexture2D::8452891871315281615::1686773944::1686774597::1::::<><>::
+mHero_.png::CompressedTexture2D::7385002308597111663::1686773944::1686774597::1::::<><>::
+necromancerHand_.png::CompressedTexture2D::3266954718791291201::1686773944::1686774597::1::::<><>::
+necromancer_.png::CompressedTexture2D::4397335793940884130::1686773944::1686774598::1::::<><>::
+orcHand_.png::CompressedTexture2D::5832827765319425302::1686773944::1686774598::1::::<><>::
+orc_.png::CompressedTexture2D::7439620159910023781::1686773944::1686774598::1::::<><>::
+skeletonHand_.png::CompressedTexture2D::4935572417788894418::1686773944::1686774598::1::::<><>::
+skeleton_.png::CompressedTexture2D::2615097857795605603::1686773944::1686774598::1::::<><>::
+slimeball_.png::CompressedTexture2D::7728434214975313334::1686773944::1686774598::1::::<><>::
+slime_.png::CompressedTexture2D::3210096227373717739::1686773944::1686774598::1::::<><>::
+warlockHand_.png::CompressedTexture2D::77534002558304332::1686773944::1686774598::1::::<><>::
+warlock_.png::CompressedTexture2D::1467219299185807291::1686773944::1686774598::1::::<><>::
+weapons_.png::CompressedTexture2D::2135294358987113885::1686773944::1686774598::1::::<><>::
+::res://Add-on characters/Fire_AnimatedPixel/::1686774598
+Fire_Spreadsheet.png::CompressedTexture2D::6007558683355051608::1686773943::1686774598::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/::1686774599
+free 1x.png::CompressedTexture2D::3380730341128684542::1686773943::1686774599::1::::<><>::
+free 2x.png::CompressedTexture2D::2633013662359595822::1686773943::1686774599::1::::<><>::
+free 4x.png::CompressedTexture2D::4535256039185489414::1686773943::1686774598::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/adept necromancer/::1686774598
+AdeptNecromancerIdle.png::CompressedTexture2D::9083729005815740819::1686773943::1686774598::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/corrupted treant/::1686774598
+CorruptedTreantIdle.png::CompressedTexture2D::7391570993781042864::1686773943::1686774598::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/deft sorceress/::1686774598
+deft sorceress.png::CompressedTexture2D::1637906273225364183::1686773943::1686774598::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/earth elemental/::1686774598
+EarthElementalIdle.png::CompressedTexture2D::7840690232547576119::1686773943::1686774598::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/expert druid/::1686774599
+expert druid.png::CompressedTexture2D::487311940483780090::1686773943::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/fire elemental/::1686774599
+FireElementalIdle.png::CompressedTexture2D::1678879485936695646::1686773943::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/flesh golem/::1686774599
+FleshGolemIdle.png::CompressedTexture2D::910547525661064319::1686773943::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/fluttering pixie/::1686774599
+FlutteringPixieIdle.png::CompressedTexture2D::5522983224594693250::1686773943::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/gelatinous cube/::1686774599
+GelatinousCubeIdle.png::CompressedTexture2D::713537582470407940::1686773943::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/glowing wisp/::1686774599
+GlowingWispIdle.png::CompressedTexture2D::3812163233787217085::1686773943::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/grandmaster warlock/::1686774599
+GrandmasterWarlockIdle.png::CompressedTexture2D::3439088425730488654::1686773943::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/grizzled treant/::1686774599
+GrizzledTreantIdle.png::CompressedTexture2D::8090923444692013484::1686773943::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/hungry mimic/::1686774599
+HungryMimicIdle.png::CompressedTexture2D::4287326375362240669::1686773943::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/ice golem/::1686774599
+IceGolemIdle.png::CompressedTexture2D::2214025046626565301::1686773944::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/iron golem/::1686774599
+IronGolemIdle.png::CompressedTexture2D::3035067341649201630::1686773944::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/novice pyromancer/::1686774599
+NovicePyromancerIdle.png::CompressedTexture2D::5380651272683496645::1686773944::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/skilled battlemage/::1686774599
+SkilledBattlemageIdle.png::CompressedTexture2D::235387470574319079::1686773944::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/venomous chimera/::1686774599
+VenomousChimeraIdle.png::CompressedTexture2D::5374180018183073299::1686773944::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/vile witch/::1686774599
+VileWitchIdle.png::CompressedTexture2D::8555290286429525603::1686773944::1686774599::1::::<><>::
+::res://Add-on characters/Magical Free Asset Pack/water elemental/::1686774599
+WaterElementalIdle.png::CompressedTexture2D::6337488941015810613::1686773944::1686774599::1::::<><>::
+::res://Add-on characters/Outer Buddies - Asset Pack DEMO (1)/::1686774599
+buddie0 sprite sheet x1.png::CompressedTexture2D::3902362758479688000::1686773944::1686774598::1::::<><>::
+buddie0 sprite sheet x2.png::CompressedTexture2D::4203104038888468420::1686773944::1686774599::1::::<><>::
+buddie0 sprite sheet x3.png::CompressedTexture2D::1659257726321301933::1686773944::1686774599::1::::<><>::
+Technical Information.txt::TextFile::-1::1686773944::0::1::::<><>::
+::res://Add-on characters/Retro-Lines-16x16/::1686774599
+Expanded-Retro-Lines-Enemies-transparent.png::CompressedTexture2D::5309137737709604978::1686773944::1686774598::1::::<><>::
+LICENSE.txt::TextFile::-1::1686773944::0::1::::<><>::
+README.txt::TextFile::-1::1686773944::0::1::::<><>::
+Retro-Lines-Player-transparent.png::CompressedTexture2D::5312187575808615075::1686773944::1686774598::1::::<><>::
+Retro-Lines-Tiles-transparent.png::CompressedTexture2D::2718943502085630577::1686773944::1686774599::1::::<><>::
+::res://Add-on characters/Retro-Lines-16x16/With-Background/::1686774598
+Expanded-Retro-Lines-Enemies.png::CompressedTexture2D::4036380943536308456::1686773944::1686774598::1::::<><>::
+Retro-Lines-Player.png::CompressedTexture2D::5068167671574322209::1686773944::1686774598::1::::<><>::
+Retro-Lines-Tiles.png::CompressedTexture2D::3269331474360834324::1686773944::1686774598::1::::<><>::
+::res://Add-on characters/Sprites - Lasers Bullets #1 [66]v2.5/::1686773944
+::res://Add-on characters/Sprites - Lasers Bullets #1 [66]v2.5/Laser Sprites/::1686774599
+01.png::CompressedTexture2D::1682087821947151573::1686773944::1686774599::1::::<><>::
+02.png::CompressedTexture2D::5972381594308792307::1686773944::1686774599::1::::<><>::
+03.png::CompressedTexture2D::4655046994051819974::1686773944::1686774599::1::::<><>::
+04.png::CompressedTexture2D::2579334274313682057::1686773944::1686774599::1::::<><>::
+05.png::CompressedTexture2D::8642346034088625517::1686773944::1686774599::1::::<><>::
+06.png::CompressedTexture2D::7089478326382421684::1686773944::1686774599::1::::<><>::
+07.png::CompressedTexture2D::3510787705709141181::1686773944::1686774599::1::::<><>::
+08.png::CompressedTexture2D::4643632983135652655::1686773944::1686774599::1::::<><>::
+09.png::CompressedTexture2D::5447903560122639330::1686773944::1686774597::1::::<><>::
+10.png::CompressedTexture2D::5801515231439049010::1686773944::1686774597::1::::<><>::
+11.png::CompressedTexture2D::8646887726087144571::1686773944::1686774597::1::::<><>::
+12.png::CompressedTexture2D::1767768583727783185::1686773944::1686774597::1::::<><>::
+13.png::CompressedTexture2D::4824807171030455172::1686773944::1686774597::1::::<><>::
+14.png::CompressedTexture2D::6233434070712232954::1686773944::1686774597::1::::<><>::
+15.png::CompressedTexture2D::6632157299691847870::1686773944::1686774596::1::::<><>::
+16.png::CompressedTexture2D::3458213778764335504::1686773944::1686774596::1::::<><>::
+17.png::CompressedTexture2D::1542585002183682959::1686773944::1686774596::1::::<><>::
+18.png::CompressedTexture2D::1490759935663498564::1686773944::1686774596::1::::<><>::
+19.png::CompressedTexture2D::1159156192903557167::1686773944::1686774596::1::::<><>::
+20.png::CompressedTexture2D::8510248527387985291::1686773944::1686774596::1::::<><>::
+21.png::CompressedTexture2D::8472192661561882200::1686773944::1686774596::1::::<><>::
+22.png::CompressedTexture2D::4423878012187182191::1686773944::1686774596::1::::<><>::
+23.png::CompressedTexture2D::8871596250479695848::1686773944::1686774596::1::::<><>::
+24.png::CompressedTexture2D::6506739255607502371::1686773944::1686774596::1::::<><>::
+25.png::CompressedTexture2D::5706707598909584197::1686773944::1686774596::1::::<><>::
+26.png::CompressedTexture2D::2521927225631106070::1686773944::1686774596::1::::<><>::
+27.png::CompressedTexture2D::847658697756257614::1686773944::1686774596::1::::<><>::
+28.png::CompressedTexture2D::6903793264386733590::1686773944::1686774596::1::::<><>::
+29.png::CompressedTexture2D::7615442704586234800::1686773944::1686774596::1::::<><>::
+30.png::CompressedTexture2D::3984987681046739264::1686773944::1686774596::1::::<><>::
+31.png::CompressedTexture2D::8188313858951770982::1686773944::1686774596::1::::<><>::
+32.png::CompressedTexture2D::3762090121999154177::1686773944::1686774596::1::::<><>::
+33.png::CompressedTexture2D::2499906894172732636::1686773944::1686774596::1::::<><>::
+34.png::CompressedTexture2D::3321902229263963470::1686773944::1686774596::1::::<><>::
+35.png::CompressedTexture2D::6147249988666725937::1686773944::1686774596::1::::<><>::
+36.png::CompressedTexture2D::1292557511671283439::1686773944::1686774596::1::::<><>::
+37.png::CompressedTexture2D::6852553453681522749::1686773944::1686774596::1::::<><>::
+38.png::CompressedTexture2D::1053591652906737072::1686773944::1686774597::1::::<><>::
+39.png::CompressedTexture2D::1365888137346463555::1686773944::1686774597::1::::<><>::
+40.png::CompressedTexture2D::7847200570946549380::1686773944::1686774597::1::::<><>::
+41.png::CompressedTexture2D::8071963161754746857::1686773944::1686774597::1::::<><>::
+42.png::CompressedTexture2D::5755831662480781106::1686773944::1686774597::1::::<><>::
+43.png::CompressedTexture2D::1429715936118063601::1686773944::1686774597::1::::<><>::
+44.png::CompressedTexture2D::7119297604006619446::1686773944::1686774597::1::::<><>::
+45.png::CompressedTexture2D::1693550086500885362::1686773944::1686774597::1::::<><>::
+46.png::CompressedTexture2D::1631227980725720226::1686773944::1686774597::1::::<><>::
+47.png::CompressedTexture2D::1926280690247752093::1686773944::1686774597::1::::<><>::
+48.png::CompressedTexture2D::7500472543090334556::1686773944::1686774597::1::::<><>::
+49.png::CompressedTexture2D::2232056041675980498::1686773944::1686774597::1::::<><>::
+50.png::CompressedTexture2D::4455165526960695235::1686773944::1686774597::1::::<><>::
+51.png::CompressedTexture2D::4567496275589109245::1686773944::1686774597::1::::<><>::
+52.png::CompressedTexture2D::1726206671290858209::1686773944::1686774597::1::::<><>::
+53.png::CompressedTexture2D::8847420807783234986::1686773944::1686774597::1::::<><>::
+54.png::CompressedTexture2D::6817399181392180439::1686773944::1686774597::1::::<><>::
+55.png::CompressedTexture2D::5620376789360644970::1686773944::1686774597::1::::<><>::
+56.png::CompressedTexture2D::1053840138061237718::1686773944::1686774597::1::::<><>::
+57.png::CompressedTexture2D::1951933766346175011::1686773944::1686774597::1::::<><>::
+58.png::CompressedTexture2D::6568228987275959719::1686773944::1686774597::1::::<><>::
+59.png::CompressedTexture2D::4481942060724002386::1686773944::1686774597::1::::<><>::
+60.png::CompressedTexture2D::6350543969975683512::1686773944::1686774597::1::::<><>::
+61.png::CompressedTexture2D::7989712618526556866::1686773944::1686774597::1::::<><>::
+62.png::CompressedTexture2D::8924398087183353954::1686773944::1686774597::1::::<><>::
+63.png::CompressedTexture2D::7503325977246950108::1686773944::1686774597::1::::<><>::
+64.png::CompressedTexture2D::8237593762179989138::1686773944::1686774597::1::::<><>::
+65.png::CompressedTexture2D::61231530097190591::1686773944::1686774597::1::::<><>::
+66.png::CompressedTexture2D::4561719084295367374::1686773944::1686774597::1::::<><>::
+::res://kenney_kenney-fonts/::1686773944
+License.txt::TextFile::-1::1686773944::0::1::::<><>::
+::res://kenney_kenney-fonts/Fonts/::1686774595
+Kenney Blocks.ttf::FontFile::2695231512507225582::1686773944::1686774595::1::::<><>::
+Kenney Future Narrow.ttf::FontFile::648869646328417658::1686773944::1686774595::1::::<><>::
+Kenney Future.ttf::FontFile::4482314564413041776::1686773944::1686774595::1::::<><>::
+Kenney High Square.ttf::FontFile::3802838020120650538::1686773944::1686774595::1::::<><>::
+Kenney High.ttf::FontFile::4699780157364295358::1686773944::1686774595::1::::<><>::
+Kenney Mini Square Mono.ttf::FontFile::8829033328894950970::1686773944::1686774595::1::::<><>::
+Kenney Mini Square.ttf::FontFile::549288805527171179::1686773944::1686774595::1::::<><>::
+Kenney Mini.ttf::FontFile::5154622593577561278::1686773944::1686774595::1::::<><>::
+Kenney Pixel Square.ttf::FontFile::8372847712968902779::1686773944::1686774595::1::::<><>::
+Kenney Pixel.ttf::FontFile::4642902823499699598::1686773944::1686774595::1::::<><>::
+Kenney Rocket Square.ttf::FontFile::2832564669054941928::1686773944::1686774595::1::::<><>::
+Kenney Rocket.ttf::FontFile::7881333968001222425::1686773944::1686774595::1::::<><>::
+::res://Textures/::1686798500
+Enemy_Flying.gd::GDScript::-1::1686773944::0::1::::<>KinematicBody2D<>::
+Enemy_Flying.tscn::PackedScene::-1::1686773944::0::1::::<><>::res://Add-on characters/Retro-Lines-16x16/Expanded-Retro-Lines-Enemies-transparent.png<>res://Textures/Enemy_Flying.gd
+Enemy_ground.tscn::PackedScene::7529390121499304395::1686796234::0::1::::<><>::uid://chv1ytvq8q5ms<>res://Enemy_ground.gd
+Landscape.tres::TileSet::-1::1686773944::0::1::::<><>::res://Add-on characters/Retro-Lines-16x16/Retro-Lines-Tiles-transparent.png
+Landscape.tscn::PackedScene::-1::1686773944::0::1::::<><>::res://Textures/Landscape.tres
+PlayerModel2.tscn::PackedScene::-1::1686773944::0::1::::<><>::res://Add-on characters/Retro-Lines-16x16/With-Background/Retro-Lines-Player.png<>res://PlayerModel2.gd
+PlayerModel(dragon).tscn::PackedScene::-1::1686773944::0::1::::<><>::res://Add-on characters/dungeonSprites_ v1.5/dragon_.png
+PlayerModel.gd::GDScript::-1::1686773944::0::1::::<>KinematicBody2D<>::
+PlayerModel.tscn::PackedScene::-1::1686773944::0::1::::<><>::res://Add-on characters/Magical Free Asset Pack/grandmaster warlock/GrandmasterWarlockIdle.png<>res://Textures/PlayerModel.gd
+Projectile.tscn::PackedScene::-1::1686773944::0::1::::<><>::res://Add-on characters/Sprites - Lasers Bullets #1 [66]v2.5/Laser Sprites/62.png<>res://Projectile.gd
+test.gd::GDScript::-1::1686798500::0::1::::<>Node2D<>::
+test.tscn::PackedScene::3327181211377679466::1686797246::0::1::::<><>::res://Textures/PlayerModel.tscn<>res://Textures/Landscape.tres<>uid://dfjj7qi5gil3h<>res://Textures/Enemy_Flying.tscn<>res://Textures/test.gd

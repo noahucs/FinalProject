@@ -26,6 +26,11 @@ func _ready() -> void:
 		player = tree.get_nodes_in_group("Player")[0]
 		
 	time.connect("timeout", self, "new_pathfinding")
+	var bodies = get_slide_collision_count()
+	for i in range(bodies):
+		var body = get_slide_collision(i).collider
+		if body.is_in_group("deletable"):
+			queue_free() 
 
 
 func new_pathfinding():
